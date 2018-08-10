@@ -1,0 +1,28 @@
+/*
+A. Almagambetov and J.M. Pavlina
+Description: bcd_decoder.bsf block symbol file
+Required file: bcd_decoder.vhd
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 208 96)
+	(text "bcd_decoder" (rect 5 0 56 12)(font "Arial" ))
+	(text "inst" (rect 8 64 20 76)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "inputs[9..0]" (rect 0 0 42 12)(font "Arial" ))
+		(text "inputs[9..0]" (rect 21 27 63 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 192 32)
+		(output)
+		(text "outputs[11..0]" (rect 0 0 50 12)(font "Arial" ))
+		(text "outputs[11..0]" (rect 121 27 171 39)(font "Arial" ))
+		(line (pt 192 32)(pt 176 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 176 64)(line_width 1))
+	)
+)
